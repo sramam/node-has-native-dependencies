@@ -1,0 +1,26 @@
+{
+  "name": "node-has-native-dependencies",
+  "version": "1.0.0",
+  "description": "A simple command line utility to check where a node-module has native dependencies",
+  "main": "index.js",
+	"bin": "index.js",
+	"files": [
+		"index.js"
+	],
+  "dependencies": {
+    "fs-walk": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sramam/node-has-native-dependencies.git"
+  },
+  "keywords": [],
+  "author": "Shishir Ramam",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sramam/node-has-native-dependencies/issues"
+  },
+  "homepage": "https://github.com/sramam/node-has-native-dependencies#readme"
+}
