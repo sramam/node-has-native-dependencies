@@ -1,6 +1,6 @@
 {
   "name": "node-has-native-dependencies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple command line utility to check where a node-module has native dependencies",
   "main": "index.js",
 	"bin": "index.js",
