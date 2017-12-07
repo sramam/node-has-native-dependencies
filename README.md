@@ -6,22 +6,26 @@ that have a 'bindings.gyp' file within. 'bindings.gyp' is a telltale sign of a m
 with native dependencies.
 
 # Installation
-
-    npm install node-has-native-dependencies
+```bash
+npm install node-has-native-dependencies
+```
 
 # Usage
 ## As a library
-
-    const hasNativeDeps = require('node-has-native-dependencies')
-    hasNativeDeps();
+```js
+const hasNativeDeps = require('node-has-native-dependencies')
+hasNativeDeps();
+```
 
 If you want to control which directory to scan
-
-    hasNativeDeps(some_dir_path)
+```js
+hasNativeDeps(some_dir_path)
+```
 
 ## From the command line
-
-   ./node_modules/.bin/node-has-native-dependencies
+```bash
+./node_modules/.bin/node-has-native-dependencies
+```
 
 # License
 Apache 2.0
